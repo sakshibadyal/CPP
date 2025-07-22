@@ -1191,4 +1191,191 @@
 
 
 
-//git checkup
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n;
+//     cout << "Enter number: ";
+//     cin >> n;
+//     bool prime = true;
+//     for (int i=2;i<=n/2;i++) {
+//         if (n%i==0) {
+//             prime=false;
+//             break;
+//        }
+//     }
+//     if (prime)
+//         cout <<"prime";
+//     else
+//         cout <<"not prime";
+// }
+ 
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n,a=0,b=1,c;
+//     cout << "Enter the number: ";
+//     cin >> n;
+//     cout <<"Fibonacci Series:";
+//     for (int i=1;i<=n;i++) {
+//         cout <<a << " ";
+//         c=a+b;
+//         a=b;
+//         b=c;
+//     }        
+//     return 0;
+// }
+
+// #include <iostream>
+// using namespace std;
+// int sum(int a,int b){
+// return a+b;
+// }
+// int main() {  
+//     cout<<sum(10,20)<<endl;
+//     cout<<sum(100,200)<<endl;
+//     cout<<sum(1000,2000)<<endl;
+//     cout<<sum(20,20)<<endl;
+//     cout<<sum(90,20)<<endl;
+
+
+//     return 0;
+
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+// float Circle(float radius) {
+//     return 3.14*radius*radius;
+// }
+// int main() {
+//     float r;
+//     cout << "Enter the radius of the circle: ";
+//     cin >> r;
+//     float a =Circle(r);
+//     cout << "Area of the circle is:"<<a<< endl;
+//     return 0;
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+// float areaOfSquare(float side) {
+//     return side * side;
+// }
+// int main() {
+//     float s;
+//     cout << "Enter the side of the square: ";
+//     cin >> s;
+//     float area = areaOfSquare(s);
+//     cout << "Area of the square is:"<< area << endl;
+//     return 0;
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+// float AreaOfCylinder(float r, float h) {
+//     return 2*3.14*r*h+2*3.14*r*r;
+// }
+// int main() {
+//     float r, h;
+//     cout << "Enter radius: ";
+//     cin >> r;
+//     cout << "Enter height: ";
+//     cin >> h;
+//     float area=AreaOfCylinder(r, h);
+//     cout << "area of the cylind.er is:"<< area<< endl;
+// }
+
+
+
+// #include <iostream>
+// using namespace std;
+// int add(int a, int b) {
+//      return a + b;
+//      }
+// int subtract(int a, int b) { 
+//     return a - b; 
+// }
+// int multiply(int a, int b) { 
+//     return a * b; 
+// }
+// int divide(int a, int b) {
+//     return a / b;
+// }
+// int main() {
+//     int a, b;
+//     char op;
+//     cout << "Enter two numbers: ";
+//     cin >> a >> b;
+//     cout << "Enter operator (+, -, *, /): ";
+//     cin >> op;
+//     switch (op) {
+//         case '+':
+//             cout<< add(a, b) << endl;
+//             break;
+//         case '-':
+//             cout << subtract(a, b) << endl;
+//             break;
+//         case '*':
+//             cout << multiply(a, b) << endl;
+//             break;
+//         case '/':
+//             cout<< divide(a, b) << endl;
+//             break;
+//         default:
+//             cout << "+, -, *, or /.\n";
+//             break;
+//     }
+// }
+
+
+
+
+// #include <iostream>
+// #include <cmath>
+// using namespace std;
+// const double PI = 3.141;
+// double areaCircle(double r) {
+//     return PI * r*r;
+// }
+// double areaRectangle(double l, double w) {
+//     return l*w;
+// }
+// double areaTriangle(double b, double h) {
+//     return 0.5*b*h;
+// }
+// double surfaceAreaCylinder(double r, double h) {
+//     return 2 *PI *r* (r+h);
+// }
+// double surfaceAreaSphere(double r) {
+//     return 4 * PI * r *r;
+// }
+// int main() {
+//     double r,l, w,b, h;
+//     cout << "Enter radius of the circle: ";
+//     cin >> r;
+//     cout<< areaCircle(r) << endl;
+//     cout << "Enter length and width of the rectangle: ";
+//     cin >> l>> w;
+//     cout<< areaRectangle(l,w) << endl;
+//     cout << "Enter base and height of the triangle: ";
+//     cin >>b>>h;
+//     cout<< areaTriangle(b,h) << endl;
+//     cout << "Enter radius and height of the cylinder: ";
+//     cin >> r>>h;
+//     cout << surfaceAreaCylinder(r, h) << endl;
+//     cout << "Enter radius of the sphere: ";
+//     cin >> r;
+//     cout << surfaceAreaSphere(r) << endl;
+// }
+
+
+
+
