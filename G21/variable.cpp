@@ -1033,7 +1033,7 @@
 //     int n;
 //     cout << "Enter a positive integer: ";
 //     cin >> n;
-//   int count=0;
+//   int count=0;3
 // while(n>0){
 //     count++;
 //     n=n/10;
@@ -1375,6 +1375,127 @@
 //     cin >> r;
 //     cout << surfaceAreaSphere(r) << endl;
 // }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n,a=0,b=1,c;
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//         cout<<a<<" ";
+//         c=a+b;
+//         a=b;
+//         b=c;
+
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n,fact=1;
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//        fact*=i;
+//        cout<<fact<<" ";
+
+//     }
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n,fact=1;
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//        fact*=i;
+//     }
+//     cout<<fact;
+// }
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n,a=0,b=1,c;
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//         c=a+b;
+//         a=b;
+//         b=c;
+
+//     }
+//      cout<<a<<" ";
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+// int isprime(int n){
+//     for(int i=2;i<=n/2;i++){
+//         if(n%i==0){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//         if(isprime(i)){
+//             cout<<i;
+//         }
+// }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// bool odd(int n){
+//     if(n%2!=0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//         if(odd(i)){
+//             cout<<odd(i)<<" ";
+//         }
+//     }
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// bool isodd(int n){
+//     if(n%2!=0){
+//         return true;
+//     }
+//     else{
+//         return false;
+//     }
+// }
+// int main(){
+//     int n;
+//     cin>>n;
+//     for (int  i = 1; i <=n; i++){
+//     if(isodd(i)){
+//         cout<<i<<" ";
+//     }
+//     }
+// }
+
+
 
 
 

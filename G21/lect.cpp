@@ -195,7 +195,25 @@
 //     double p, r, t;
 //     cin >> p >> r >> t;
 //     cout << compoundInterest(p, r, t);
-
 // }
+
+
+// #include <iostream>
+// using namespace std;
+// void swapNums(int &a, int &b) {
+//     int temp = a;
+//     a = b;
+//     b = temp;
+// }
+// int main() {
+//     int x, y;
+//     cin >> x >> y;
+//     swapNums(x, y);
+//     cout << x << " " << y;
+//     return 0;
+// }
+
+
+
 
 
